@@ -1,0 +1,121 @@
+/* 
+==============================================
+CSS garden design file by Brandon Payero
+==============================================
+01 color
+02 layout
+03font
+04 other decoration
+05 media
+
+*/
+
+/* ------- Color ------- */
+html{
+    background-color: hsla(240, 35%, 89%, 0.9);
+    padding: 2.5%;
+}
+body{
+    background-color: hsla(199, 100%, 84%, 0.9);
+    padding: 2.5%;
+}
+
+div.preamble, div.requirement, div.benefits{
+    color:hsla(180, 51%, 15%, 0.9);
+    background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+header h1{
+    background-color: hsla(192, 100%, 60%, 0.9);
+}
+footer{
+    background-color: hsla(50, 100%, 50%, 0.9);
+}
+div.participation{
+    background-color: hsla(0, 100%, 80%, 0.9);
+}
+aside.sidebar{
+    background-color: hsla(32, 100%, 80%, 0.9);
+}
+
+
+
+/* ------- Layout ------- */
+div,article,section,header,nav,figure,li{
+    position: relative;
+    line-height: 22px;
+}
+
+header h1{
+    position: relative;
+    left: 100px;
+    top: -1ex;  
+}
+
+aside.sidebar{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width:27%;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    width: 30%;
+    left: 30%;
+    bottom: 0px;
+    justify-content: center;
+}
+
+section.intro{
+    width: 60%;
+}
+
+div.explanation{
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+div.participation{
+    margin-left: 50%;
+    width: 40%;
+    padding: 5%;
+}
+
+div.benefits{
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+div.requirements{
+    margin-left: 50%;
+    width: 40%;
+    padding: 5%;
+}
+
+body{
+
+    font-family: 'Cairo';
+
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('../fonts/Cairo.woff');
+}
+
+header h1{
+    font-family: Impact;
+    font-size: 35px;
+    text-indent: -9px;
+}
+
+a{
+
+    text-decoration: none;
+    color:hsla(184, 71%, 38%, 0.9);
+
+}
